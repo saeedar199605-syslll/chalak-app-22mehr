@@ -1,0 +1,15 @@
+{
+  "name": "chalak-performance-v7-release",
+  "private": true,
+  "version": "7.0.0",
+  "type": "module",
+  "scripts": {
+    "verify": "node scripts/release.mjs verify",
+    "preflight": "node scripts/release.mjs preflight",
+    "deploy:worker": "node scripts/release.mjs deploy-worker",
+    "deploy:pages": "node scripts/release.mjs deploy-pages"
+  },
+  "devDependencies": {
+    "wrangler": "4.131.2"
+  }
+}

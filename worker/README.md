@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "chalak-state-authority" generated at 2026-10-13T18:02:00.171Z.

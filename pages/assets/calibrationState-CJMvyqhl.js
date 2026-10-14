@@ -1,0 +1,1 @@
+function a(t){return{ready:t.filter(e=>e.stage==="calibration_review"&&e.status!=="locked"),approved:t.filter(e=>["hr_approval","feedback_meeting"].includes(e.stage||"")&&e.status!=="locked").length,completed:t.filter(e=>e.stage==="completed"&&e.status==="locked").length}}export{a as c};

@@ -1,0 +1,32 @@
+{
+  "name": "chalak-state-authority",
+  "main": "index.js",
+  "compatibility_date": "2026-09-14",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CHALAK_STATE",
+        "class_name": "ChalakState"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v6.2-sqlite-v1",
+      "new_sqlite_classes": [
+        "ChalakState"
+      ]
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "CHALAK_DB",
+      "id": "4f2179fbe74b4e379556b6fb53337f2e"
+    }
+  ],
+  "workers_dev": false,
+  "no_bundle": true
+}

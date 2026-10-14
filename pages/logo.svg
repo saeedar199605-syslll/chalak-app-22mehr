@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <defs>
+    <!-- Crisp High Definition Red Gradient -->
+    <linearGradient id="chalakRedHD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2438" />
+      <stop offset="50%" stop-color="#E50920" />
+      <stop offset="100%" stop-color="#C20014" />
+    </linearGradient>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#E50920" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Isfahan Chalak High-Resolution Red Emblem -->
+  <g filter="url(#crispShadow)">
+    <!-- 1. Main Outer Crescent & Right Wing -->
+    <path
+      d="M 118,88 C 76,92 48,118 38,150 C 28,182 42,216 74,238 C 104,258 144,260 178,244 C 206,230 228,204 246,176 C 260,154 274,130 292,112 C 294,110 295,108 296,106 C 284,114 270,128 258,146 C 244,168 232,192 216,212 C 196,236 166,248 136,246 C 108,244 82,230 68,208 C 54,186 54,160 66,138 C 78,118 100,102 124,96 C 128,95 130,94 132,93 C 126,90 122,89 118,88 Z"
+      fill="url(#chalakRedHD)"
+    />
+
+    <!-- 2. Middle Upward Sweeping Wing -->
+    <path
+      d="M 92,204 C 114,172 140,140 172,114 C 190,100 210,88 230,80 C 234,78 238,77 240,76 C 228,84 214,96 200,112 C 172,144 148,182 128,222 C 122,234 116,244 110,252 C 102,240 96,222 92,204 Z"
+      fill="url(#chalakRedHD)"
+    />
+
+    <!-- 3. Dynamic Horizontal Crossbar -->
+    <path
+      d="M 44,142 C 80,140 126,138 172,142 C 194,144 212,148 226,154 C 210,160 188,162 164,162 C 118,162 78,156 44,146 C 42,144 42,143 44,142 Z"
+      fill="url(#chalakRedHD)"
+    />
+  </g>
+</svg>

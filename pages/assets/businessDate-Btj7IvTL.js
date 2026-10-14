@@ -1,0 +1,1 @@
+import{n as i,a as s,a4 as n}from"./index-Bf6s10lx.js";function d(a){if(typeof a!="string")return;const e=/^(\d{4})\/(\d{1,2})\/(\d{1,2})$/.exec(i(a).trim());if(!e||Number(e[1])<1300||Number(e[1])>1600)return;const r=`${e[1]}/${e[2].padStart(2,"0")}/${e[3].padStart(2,"0")}`,t=s(r);return t?n(`${t.slice(0,4)}-${t.slice(4,6)}-${t.slice(6,8)}`):void 0}export{d as p};
